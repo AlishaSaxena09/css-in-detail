@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -47,18 +48,20 @@ table {
 	border-spacing: 0;
 }
 img{
-    height:300px;
+    height:380px;
     width:100%;
     text-align: center;
 }
-h1{
+h2{
     font-size: 40px;
     margin: 20px 0;
     text-align: left;
     font-weight: 600;
+    line-height: 35px;
 }
-h2{
-    padding: 10px;
+time{
+    padding-top: 35px;
+    padding-bottom: 35px;
     font-size: 20px;
     text-align: left;
     color: blue;
@@ -67,6 +70,7 @@ p{
     font-size: 20px;
     padding: 10px;
     text-align: justify;
+    line-height: 40px;
 }
 div{
     text-align: center;
@@ -81,4 +85,17 @@ a {
 }
 hr {
     margin: 25px 0;
+}
+nav{
+    text-align: center;
+    padding: 10px;
+    background-color: violet;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: grey;
+}
+a{
+    text-decoration: none;
 }
